@@ -164,7 +164,7 @@ def comment_thread():
         pass
             
 def save_karma():
-    memepolice = reddit.redditor("prequelmemes_bot")
+    memepolice = reddit.redditor("sequelmemes_bot")
     while True:
         for comment in memepolice.comments.new(limit=100):
             # It will parse 100 comments in 5-6 seconds
