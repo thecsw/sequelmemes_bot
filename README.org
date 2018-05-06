@@ -72,8 +72,8 @@ config profile you should fill your Reddit API details.
 For that please follow the steps below
 
 #+BEGIN_SRC screen
-git clone https://github.com/thecsw/prequelmemes_bot
-cd prequelmemes_bot
+git clone https://github.com/thecsw/sequelmemes_bot
+cd sequelmemes_bot
 mv example.config.py config.py
 nano config.py
 #+END_SRC
