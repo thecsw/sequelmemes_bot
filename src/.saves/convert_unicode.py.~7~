@@ -1,0 +1,7 @@
+
+with open("star-wars-episode-ii-attack-of-the-clones-yify-english.srt", "r") as f:
+    thing = f.readlines()
+f.close()
+
+print(f)
+str(f).encode("utf-8")

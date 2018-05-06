@@ -1,0 +1,11 @@
+
+with open("star-wars-episode-ii-attack-of-the-clones-yify-english.srt", "r+", encoding="ISO-8859-1") as f:
+    thing = f.read()
+f.close()
+
+print(thing)
+thing.encode("utf-8")
+
+with open("star-wars-episode-ii-attack-of-the-clones-yify-english.srt", "w+", encoding="ISO-8859-1") as f:
+    f.write(thing)
+f.close()
